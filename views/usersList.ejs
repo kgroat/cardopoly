@@ -1,0 +1,21 @@
+<html>
+<head>
+
+</head>
+<body>
+    <table>
+        <thead>
+            <th>Username</th>
+            <th>Joined on</th>
+        </thead>
+        <tbody>
+            <% for(var i=0; i<users.length; i++) { %>
+                <tr>
+                    <td><%= users[i].username %></td>
+                    <td><%= users[i].created %></td>
+                </tr>
+            <% }%>
+        </tbody>
+    </table>
+</body>
+</html>

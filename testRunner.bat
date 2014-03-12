@@ -1,0 +1,1 @@
+"node_modules\.bin\mocha" .\tests -r should -R mocha-teamcity-reporter
